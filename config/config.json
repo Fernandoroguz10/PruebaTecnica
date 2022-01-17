@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pruebatecnica-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pruebatecnica/PruebatecnicaWebPart.js",
+          "manifest": "./src/webparts/pruebatecnica/PruebatecnicaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PruebatecnicaWebPartStrings": "lib/webparts/pruebatecnica/loc/{locale}.js"
+  }
+}
